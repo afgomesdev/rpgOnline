@@ -4,6 +4,7 @@ import { Character } from "./components/Character";
 import { useCharacter } from "./hooks/useCharacter";
 import { io } from "socket.io-client";
 import { Move } from "./types/Move";
+
 const socket = io("http://192.168.15.9:8080");
 
 const App = () => {
